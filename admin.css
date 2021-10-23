@@ -1,0 +1,330 @@
+.headerad{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 30px;
+    font-size: 1.6rem;
+    background-color: rgb(224, 194, 199);
+}
+ 
+.admin,
+.logout{
+    padding: 16px 9px;
+
+}
+
+
+.admin_btn,
+.logout_btn
+{
+    text-decoration: none;
+    color: black;
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.app_container{
+    height: 100vh;
+}
+
+.content__header{
+    text-align: center;
+    
+}
+.input_wrap {
+display: flex;
+justify-content: space-between;
+}
+
+.input_wrap .form-control{
+    width: 80rem;
+    height: 3rem;
+    margin-top: 12px;
+}
+
+.input_wrap .input_wrap-lable{
+    margin-top: 12px;
+}
+
+.input_wrap label{
+    font-size: 1.6rem;
+}
+
+.form-submit{
+    font-size: 2rem;
+    float: right;
+}
+.table-responsive{
+    width: 100%;
+    margin-top: 16px;
+    background-color:rgb(224, 194, 199);
+}
+.table{
+    width: 100%;
+}
+
+th{
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} 
+
+.thead-dark{
+    font-size: 1.6rem;
+}
+
+.thead-dark th{
+    height: 3em;
+    line-height: 3em;
+}
+.form-control-click{
+    margin-top: 16px;
+}
+
+.form-submit{
+    margin-left: 8px;
+}
+
+.content__header-result{
+    color: #aab85c;
+}
+
+.content__header-result-error{
+    color: #c9302c;
+}
+.modal{
+    background-image: url(../img/fecd2293adc30f51475ecc5eb29d51b8.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+}
+.auth-form{
+    margin: auto ;
+}
+
+.auth-form .auth-form-container{
+    background-color:#e5efa6;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.auth-form_input{
+    border-radius: 14px;
+
+}
+
+.auth-form_input-checkbox{
+    height: 20px;
+    width: 10%;
+}
+
+.auth-form_input-checkbox-text{
+    float: left;
+    font-size: 1.4rem;
+    margin: -3px;
+}
+
+.auth-form_group-checkbox{
+    margin-left: 8px;
+}
+
+.auth-form_erro{
+    font-size: 18px;
+    margin-top: 20px;
+    color: #c9302c;
+    font-weight: 600;
+}
+
+/* Đăng KÝ */
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #333;
+  font-size: 62.5%;
+}
+.main-DK {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/fecd2293adc30f51475ecc5eb29d51b8.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}
+.form_DK {
+  width: 450px;
+  min-height: 100px;
+  padding: 32px 24px;
+  text-align: center;
+  background: #fff;
+  border-radius: 2px;
+  margin: 24px;
+  align-self: center;
+}
+.form_DK .heading {
+  font-size: 2rem;
+}
+.form_DK .desc {
+  text-align: center;
+  color: #636d77;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  line-height: 2.4rem;
+  margin-top: 16px;
+  font-weight: 300;
+}
+
+.form-DK {
+  display: flex;
+  margin-bottom: 16px;
+  flex-direction: column;
+}
+
+.form-labels,
+.form-messages {
+  text-align: left;
+}
+
+.form-labels {
+  font-weight: 700;
+  padding-bottom: 6px;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+}
+
+.form-controls {
+  height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #b3b3b3;
+  border-radius: 3px;
+  outline: none;
+  font-size: 1.4rem;
+}
+
+.form-controls:hover {
+  border-color: #1dbfaf;
+}
+
+.form-DK.invalids .form-controls {
+  border-color: #f33a58;
+}
+
+.form-DK.invalids .form-messages {
+  color: #f33a58;
+}
+
+.form-messages {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding: 4px 0 0;
+}
+
+.form-submits {
+  outline: none;
+  background-color: #1dbfaf;
+  margin-top: 12px;
+  padding: 12px 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* cart */
+
+.table-form-cart{
+width: 95%;
+margin: 0 auto;
+display: flex;
+border-bottom: 4px solid #ccc;
+font-size: 12px;
+font-weight: 700;
+
+}
+
+.table-form-cart-product{
+  width: 40%;
+  display: flex;
+
+  
+}
+
+.table-form-cart-product img{
+  width: 80px;
+  height: 60px;
+  margin: 4px;
+}
+
+.table-form-cart-product-thongtin{
+  margin-left: 20px;
+}
+
+.table-form-cart-product-thongtin h2{
+  font-size: 16px;
+  margin: 4px;
+
+}
+
+.table-form-cart-product-thongtin p{
+  color: #ccc;
+  margin: 4px;
+
+}
+
+
+.table-form-cart-price{
+  width: 20%;
+}
+.table-form-cart-prices{
+  margin-top: 4px;
+}
+.table-form-cart-quantity input{
+  width: 80px;
+  border-radius: 6px;
+  margin-top: 16px;
+}
+.table-form-cart-quantity{
+  width: 20%;
+
+}
+.table-form-cart-total{
+width: 20%;
+display: flex;
+}
+
+.table-form-cart-total h2{
+  color: orange;
+  font-size: 20px;
+  margin-top:  4px;
+}
+
+.table-form-cart-total input{
+  height: 30px;
+  margin: 4px 24px;
+
+}
+
+.table-form-cart-total{
+  font-size: 20px;
+  font-weight: 700;
+  margin: 12px 0;
+
+}
+
+.add-to-cart input{
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 7px;
+    height: 40px;
+    background: orange;
+    color: red;
+
+}
